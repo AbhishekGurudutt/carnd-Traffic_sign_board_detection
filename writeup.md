@@ -3,14 +3,6 @@
 
 **Build a Traffic Sign Recognition Project**
 
-The goals / steps of this project are the following:
-* Load the data set (see below for links to the project data set)
-* Explore, summarize and visualize the data set
-* Design, train and test a model architecture
-* Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
-
 
 [//]: # (Image References)
 
@@ -27,7 +19,7 @@ The goals / steps of this project are the following:
 [image11]: ./testing_data/6.png "Traffic Sign 7"
 
 ---
-### Writeup / README
+### Writeup
 
 Here is a link to my [project code](https://github.com/AbhishekGurudutt/carnd-Traffic_sign_board_detection/blob/master/Traffic_Sign_Classifier.ipynb)
 
@@ -45,7 +37,7 @@ signs data set:
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data is spread across different classes.
 ![alt text][image1]
 
-### Design and Test a Model Architecture
+### Design and Testing the Model Architecture
 
 As a first step, I decided to sharpen the image since image sharpening increases the contrast which helps in making the edges more defined. Here is an example of a traffic sign image before and after sharpening.
 
@@ -92,7 +84,7 @@ I tried to equalize the histogram, but i found that the accuracy decreased and h
 
 I changed the normalization equation from ((pixel - 128) / 128) to (pixel / 255), this would help in feature distribution to be much more closer and this helped to increase the accuracy further more to 97.8%
 
-### Test a Model on New Images
+### Testing the Model on New Images
 
 Here are few German traffic signs that I found on the web:
 
